@@ -1,0 +1,417 @@
+
+header {background-color: rgb(227, 175, 217);
+  color: #000000;
+  padding: 10px; 
+  text-align: center;
+  margin-bottom: 50px;
+
+}
+img {margin-top: 5%;}
+body {
+  font-family: 'Ubuntu', sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+  font-family: 'Montserrat', sans-serif;
+}
+
+p {
+  color: #000000;
+}
+
+.container-fluid {
+  padding: 3% 15% 7% !important;
+}
+
+.navbar {
+  padding-bottom: 4.5rem !important;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+@media (max-width: 1028px) {
+  #title {
+    text-align: center;
+  }
+ 
+}
+
+#features {
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-box {
+  padding: 5%;
+}
+
+
+
+.feature-box h3 {
+  padding-top: 30px;
+}
+
+#testimonials {
+  background-color: #ee8172;
+  padding: 3rem 0;
+}
+
+#testimonials em {
+  color: white;
+}
+
+.media {
+  width: 15% !important;
+  margin: 20px 20px 30px !important;
+}
+
+footer{
+  background-color: rgb(227, 175, 217);
+  color: #000000;
+  text-align: center;
+  }
+  
+  footer{
+  display: block;
+  }
+  address{
+    display: block;
+    font-style: italic;
+    }
+
+    .hr{
+        display: inset;
+        border-style: inset;
+        border-width: 20px;
+        }
+
+     .layer1 {
+            float: left; 
+            background: white;
+           }
+           element.style{
+            width: 100%;
+           }
+          
+          .episode{
+            margin-top: 10px;
+            margin-bottom: 10px;
+          }
+          .sum{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 800px;
+            text-align: center;
+            margin: 50px;
+          }
+          .abt {
+            margin-left: 30px;
+          }
+          
+          
+video {
+  margin-top: 10px;
+}
+
+figure {
+  width: 600px;
+  height: 350px;
+}
+th,
+td {
+  padding: 20px;
+}
+tbody td {
+  text-align: center;
+}
+img {
+  height: 200px;
+  width: 200px;
+  border-radius: 100px;
+  float:none;
+  clear: none;
+}
+.service{
+  margin: 80px;
+  border: 3px solid black;
+  padding: 10px;
+  padding-left: 50px;
+  padding-right: 50px;
+  border-radius: 10px;
+}
+.card_img {
+  height: 300px;
+  border: black 2px solid
+}
+.abt {
+  margin-left: 30px;
+}
+.sum {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 800px;
+  text-align: center;
+  margin: 50px;
+}
+
+.serv {
+  margin-bottom: 20px;
+  margin-top: 3s0px;
+}
+
+.services{
+  display: flex;
+  width: 1000px;
+  justify-content: space-around;
+}
+
+.team{
+  margin-top: 80px;
+  margin-bottom: 100px;
+  border: 3px black solid;
+  border-radius: 20px;
+}
+.member_img{
+  height: 200px;
+  width: 220px;
+  border-radius: 10px;
+}
+.member{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 25px;
+}
+input {
+  margin-bottom: 15px;
+}
+mark{
+  background-color:rgb(227, 175, 217);
+}
+
+.container {
+  margin-bottom: 30px;
+  width: auto;
+}
+
+.container_skills {
+  width: 500px;
+  margin-bottom: 50px;
+}
+
+.contact {
+  text-align: center;
+}
+
+.btn {
+  background-color: #4caf50;
+  color: #fff;
+  border: none;
+  border-radius: 3px;
+  padding: 10px 20px;
+  cursor: pointer;
+}
+
+.voyages {
+
+  height: 300px;
+  width: 90%;
+  margin: 0 auto;
+  padding: 20px 0px 10px 0px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+
+}
+
+img.imgvyge {
+
+ border-radius: 50%;
+ object-fit: cover;
+ width: 200px;
+ height: 250px;
+ justify-content: center;
+ align-items: center;
+ margin: auto 30px;
+ -webkit-transition: all 1s ease;
+ -moz-transition: all 1s ease;
+ -o-transition: all 1s ease;
+ -ms-transition: all 1s ease;
+ transition: all 1s ease;
+}
+
+.imgvyge:hover {
+
+ width: 300px;
+ height:300px;
+
+}
+
+p.text {
+
+ display: none;
+ z-index:100;
+ position:relative;
+ color:black;
+ font-size:24px;
+ font-weight:bold;
+ left:130px;
+ bottom:160px;
+ transition: all 0.7s ease;
+
+}
+
+progress {
+  opacity: 0;
+}
+
+.progress-element {
+  width: 1000px;
+  margin: 0 0 10px;
+}
+
+.progress-container {
+  position: relative;
+  background: #eee;
+  height: 20px;
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+.progress-container::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 300%;
+  width: 0;
+}
+
+.progress-element--html .progress-container::before {
+  animation: progress-html 1s ease-in forwards;
+  background-color: rgb(239, 239, 59);
+}
+
+.progress-element--css .progress-container::before {
+  animation: progress-css 1s ease-in forwards;
+  background-color: #4caf50;
+}
+
+.progress-element--javascript .progress-container::before {
+  animation: progress-javascript 1s ease-in forwards;
+  background-color: rgb(236, 167, 40);
+}
+
+.progress-element--video .progress-container::before {
+  animation: progress-video 1s ease-in forwards;
+  background-color: rgb(235, 51, 51);
+}
+
+.progress-element--programming .progress-container::before {
+  animation: progress-programming 1s ease-in forwards;
+  background-color: rgb(98, 98, 189);
+}
+
+.progress-label {
+  position: relative;
+}
+
+@property --num {
+  syntax: "<integer>";
+  initial-value: 0;
+  inherits: false;
+}
+
+.progress-label::after {
+  counter-reset: num var(--num);
+  content: counter(num) "%";
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+.progress-element--html .progress-label::after {
+  animation: progress-text-html 1s ease-in forwards;
+}
+
+.progress-element--css .progress-label::after {
+  animation: progress-text-css 1s ease-in forwards;
+}
+
+.progress-element--javascript .progress-label::after {
+  animation: progress-text-javascript 1s ease-in forwards;
+}
+
+.progress-element--video .progress-label::after {
+  animation: progress-text-video 1s ease-in forwards;
+}
+
+.progress-element--programming .progress-label::after {
+  animation: progress-text-programming 1s ease-in forwards;
+}
+
+@keyframes progress-html {
+  to {
+    width: 90%;
+  }
+}
+
+@keyframes progress-css {
+  to {
+    width: 80%;
+  }
+}
+
+@keyframes progress-javascript {
+  to {
+    width: 91%;
+  }
+}
+
+@keyframes progress-video {
+  to {
+    width: 75%;
+  }
+}
+
+@keyframes progress-programming {
+  to {
+    width: 66%;
+  }
+}
+
+@keyframes progress-text-html {
+  to {
+    --num: 90;
+  }
+}
+
+@keyframes progress-text-css {
+  to {
+    --num: 80;
+  }
+}
+
+@keyframes progress-text-javascript {
+  to {
+    --num: 91;
+  }
+}
+
+@keyframes progress-text-video {
+  to {
+    --num: 75;
+  }
+}
+
+@keyframes progress-text-programming {
+  to {
+    --num: 66;
+  }
+}
